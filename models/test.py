@@ -1,9 +1,7 @@
 # fastscore.input: gbm_input
 # fastscore.output: gbm_output
 
-import cPickle
-import numpy as np
-import pandas as pd
+
 
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
