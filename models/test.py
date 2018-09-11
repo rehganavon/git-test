@@ -2,5 +2,5 @@
 # fastscore.output: gbm_output
 
 def action(datum):
-    score = list(gbmFit.predict(pd.DataFrame([datum])))[0]
+    y = datum + 1
     yield score
